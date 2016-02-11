@@ -52,7 +52,7 @@
         <section>
           <img src="img/moteros.jpg" width="400">
           <h2 class="fragment">90VTwin - Motorcycles Dealer</h1>
-          <h3 class="fragment">A complete web site with news, about page, contact form, etc. from scratch.</h3>
+          <h3 class="fragment">A complete web site with news, location, contact form, etc. from scratch.</h3>
         </section>
 
         <section>
@@ -74,7 +74,7 @@
                   <li>Mechanics workshop</li>
                   <li>Parts store</li>
                 </ul>
-              <li class="fragment">About</li>
+              <li class="fragment">Location</li>
               <li class="fragment">Contact</li>
               <li class="fragment">News</li>
             </ul>
@@ -211,50 +211,76 @@
           </li>
           <li class="fragment">
             MENU SETTINGS &#8594; check "Provide a menu link"<br>
+            Parent item &#8594; Services<br>
           </li>
           <li class="fragment">
             URL PATH SETTINGS &#8594; URL alias &#8594; /sale<br>
           </li>
-        </section>
-
-        <section>
-          <h2>Colocar el menú principal en la barra lateral</h2>
           <li class="fragment">
-            Estructura &#8594; Bloques<br>
-            Arrastrar "Menú principal" al bloque "Primera barra lateral"
+            Click "Save and publish"<br>
           </li>
         </section>
 
         <section>
-          <h2>Añadir "Taller" y "Tienda de accesorios"</h2>
+          <h2>Set the main menu in the side bar</h2>
           <li class="fragment">
-            Se añaden las secciones de igual forma que con la sección "Compra-venta de motos"
+            Structure &#8594; Block layout<br>
+            Set "Main navigation" region to "Sidebar first"
+          </li>
+          <h2>Expand submenu</h2>
+          <li class="fragment">
+            Structure &#8594; Menus &#8594; Main navigation &#8594; Edit menu<br>
+            Services &#8594; Edit &#8594; Check "Show as expanded"
+          </li>
+          <li class="fragment">
+            Structure &#8594; Block layout<br>
+            Main navigation &#8594; Configure &#8594; MENU LEVELS &#8594; Maximum number of menu levels to display
+&#8594; Unlimited
           </li>
         </section>
 
         <section>
-          <h2>Añadir la sección "Dónde estamos"</h2>
+          <h2>Sections "Mechanics workshop" and "Parts store"</h2>
           <li class="fragment">
-            Contenido &#8594; Agregar contenido &#8594; Página básica
+            Add sections the same way as seen before.
           </li>
           <li class="fragment">
-            Buscar la dirección en Google Maps
-          </li>
-          <li class="fragment">
-            Colocar el enlace de Google Maps en un iframe
+            Click "Save blocks"
           </li>
         </section>
 
         <section>
-          <h2>Añadir noticias en la página principal</h2>
+          <h2>Section "Location"</h2>
           <li class="fragment">
-            Contenido &#8594; Agregar contenido &#8594; Artículo
+            Content &#8594; + Add content &#8594; Basic page<br>
           </li>
           <li class="fragment">
-            Añadir texto e imagen
+            Search the address in Google Maps and obtain iframe (share option)
           </li>
           <li class="fragment">
-            Dentro de "Opciones de publicación" debe estar marcada la casilla "Promovido a la portada"
+            Text format &#8594; Full HTML
+          </li>
+          <li class="fragment">
+            Source &#8594; Paste iframe
+          </li>
+          <li class="fragment">
+            MENU SETTINGS &#8594; check "Provide a menu link"<br>
+          </li>
+          <li class="fragment">
+            URL PATH SETTINGS &#8594; URL alias &#8594; /location<br>
+          </li>
+        </section>
+
+        <section>
+          <h2>Add news to the home page</h2>
+          <li class="fragment">
+            Content &#8594; + Add content &#8594; Basic page<br> Article
+          </li>
+          <li class="fragment">
+            Add text and image
+          </li>
+          <li class="fragment">
+            PROMOTION OPTIONS &#8594; make sure "Promoted to front page" is checked
           </li>
         </section>
 
